@@ -1,0 +1,21 @@
+# Ignore everything
+/*
+
+# Except for these files
+
+!/.gitignore
+
+# zsh settings
+!/.zshrc
+!/.zshrc.pre
+!/.zprofile
+!/.p10k.zsh
+
+# intellij settings
+!/.ideavimrc
+
+# terminal settings
+!/.hyper.js
+
+# app settings
+!/.config/

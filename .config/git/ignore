@@ -1,0 +1,10 @@
+# editor
+.vscode/
+.idea/
+*.swp
+
+# ai agent
+CLAUDE.md
+
+# direnv
+.envrc
