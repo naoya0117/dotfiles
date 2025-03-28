@@ -8,3 +8,6 @@ CLAUDE.md
 
 # direnv
 .envrc
+
+# git diff patch (git diff > *.patch)
+*.patch
