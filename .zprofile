@@ -6,6 +6,7 @@ eval $(/opt/homebrew/bin/brew shellenv)
 
 # Added by Toolbox App
 export PATH="$PATH:/Users/naoya/Library/Application Support/JetBrains/Toolbox/scripts"
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # デフォルトのエディタをneovimに設定
 export GIT_EDITOR=nvim
