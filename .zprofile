@@ -2,6 +2,8 @@
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh"
 eval $(/opt/homebrew/bin/brew shellenv)
 
+[[ -f "${HOME}/.profile.secret" ]] && source "${HOME}/.profile.secret"
+
 # Added by Toolbox App
 export PATH="$PATH:/Users/naoya/Library/Application Support/JetBrains/Toolbox/scripts"
 
@@ -12,11 +14,8 @@ export EDITOR=nvim
 
 export N_PREFIX=$HOME/.n
 
-NODE_PATH=$(which node | xargs dirname)
-
 # neovimのgithub copilotのバージョンを固定
-export NVIM_NODE=$NODE_PATH
-
+export NVIM_NODE=$(which node | xargs dirname)
 
 export FZF_DEFAULT_OPTS='--height 80% --reverse --border'
 
@@ -24,7 +23,6 @@ export FZF_DEFAULT_OPTS='--height 80% --reverse --border'
 alias emacs='nvim'
 alias vim='nvim'
 alias vi='nvim'
-alias v='nvim'
 alias edit='nvim'
 alias cat='bat'
 
