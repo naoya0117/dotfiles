@@ -3,6 +3,8 @@
 
 # Except for these files
 
+!/README.md
+
 !/.gitignore
 
 # zsh settings
