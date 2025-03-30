@@ -9,5 +9,8 @@ CLAUDE.md
 # direnv
 .envrc
 
+# obsidian
+.obsidian/
+
 # git diff patch (git diff > *.patch)
 *.patch
