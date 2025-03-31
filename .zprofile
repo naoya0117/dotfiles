@@ -1,11 +1,10 @@
 # Amazon Q pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh"
-eval $(/opt/homebrew/bin/brew shellenv)
+eval :"(brew shellenv)"
 
 [[ -f "${HOME}/.profile.secret" ]] && source "${HOME}/.profile.secret"
 
 # Added by Toolbox App
-export PATH="$PATH:/Users/naoya/Library/Application Support/JetBrains/Toolbox/scripts"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 # デフォルトのエディタをneovimに設定
