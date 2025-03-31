@@ -4,7 +4,6 @@
 # except for these files
 !/.gitignore
 
-!/karabiner
 !/git/
 !/sheldon/
 !/nvim/

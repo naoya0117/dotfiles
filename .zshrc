@@ -1,6 +1,7 @@
 # Amazon Q pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
 
+[[ -f "${HOME}/.zprofile" ]] && source "${HOME}/.zprofile"
 [[ -f "${HOME}/.zshrc.pre" ]] && source "${HOME}/.zshrc.pre"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -30,7 +31,6 @@ _evalcache zoxide init zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 
 unfunction source
 
