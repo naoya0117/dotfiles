@@ -1,6 +1,6 @@
 # Amazon Q pre block. Keep at the top of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zprofile.pre.zsh"
-eval :"(brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 [[ -f "${HOME}/.profile.secret" ]] && source "${HOME}/.profile.secret"
 
