@@ -1,0 +1,20 @@
+# Ignore everything
+/*
+
+# Except for these files
+
+!/README.md
+
+!/.gitignore
+
+# zsh settings
+!/.zshrc
+!/.zshrc.pre
+!/.zprofile
+!/.p10k.zsh
+
+# intellij settings
+!/.ideavimrc
+
+# app settings
+!/.config/

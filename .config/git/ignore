@@ -1,0 +1,18 @@
+# editor
+.vscode/
+.idea/
+*.swp
+
+# ai agent
+CLAUDE.md
+
+# direnv
+.envrc
+
+# obsidian
+.obsidian/
+
+# git diff patch (git diff > *.patch)
+*.patch
+
+**/.claude/settings.local.json
